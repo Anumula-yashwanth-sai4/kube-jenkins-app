@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("clone"){
             steps{
-             bat "git clone https://github.com/Anumula-yashwanth-sai4/kube-jenkins-app.git"
+             bat "C:\Users\Anumula.Yashwanth\AppData\Local\GitHubDesktop\app-3.5.5\resources\app\git\cmd\git clone https://github.com/Anumula-yashwanth-sai4/kube-jenkins-app.git"
             }
         }
         stage("compile"){
