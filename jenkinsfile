@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage("clone"){
+        stage("checkout"){
             steps{
-             git clone https://github.com/Anumula-yashwanth-sai4/kube-jenkins-app.git
+             git "https://github.com/Anumula-yashwanth-sai4/kube-jenkins-app.git"
             }
         }
         stage("compile"){
